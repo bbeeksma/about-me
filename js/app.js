@@ -18,7 +18,7 @@ function submit(){
   } else {
     document.getElementById('question1').style.color = 'red';
   }
-  if((responses.color).toUpperCase() === 'WHITE' || 'BLACK'){
+  if((responses.color).toUpperCase() === 'WHITE' || (responses.passion).toUpperCase() === 'BLACK'){
     document.getElementById('question2').style.color = 'green';
   } else {
     document.getElementById('question2').style.color = 'red';
@@ -33,7 +33,7 @@ function submit(){
   } else {
     document.getElementById('question4').style.color = 'red';
   }
-  if((responses.passion).toUpperCase() === 'CREATIVITY' || 'BLACK'){
+  if((responses.passion).toUpperCase() === 'CREATIVITY' || (responses.passion).toUpperCase() === 'PROMOTING CREATIVITY'){
     document.getElementById('question5').style.color = 'green';
   } else {
     document.getElementById('question5').style.color = 'red';
