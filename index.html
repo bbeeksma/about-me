@@ -11,20 +11,34 @@
   <p>
     In order to learn more about me I have created a little guessing games. Answer the questions below to your best ability and then click submit.
   </p>
-  <strong><p>What is my name?</p></strong>
-  <input type="text" id="name" value="Insert answer here"/>
-  <strong><p>What is my favorite color?</p></strong>
-  <input type="text" id="color" value="Insert answer here" />
-  <strong><p>What is my favorite food?</p></strong>
-  <input type="text" id="food" value="Insert answer here" />
-  <strong><p>What is my favorite programming language?</p></strong>
-  <input type="text" id="language" value="Insert answer here"  />
-  <strong><p>What is my passion?</p></strong>
-  <input type="text" id="passion" value="Insert answer here" />
-  <br />
-  <br />
+  <ul>
+    <li>
+      <p id = "question1"><strong>What is my name?</strong></p>
+      <input type="text" id="name" placeholder="Insert answer here"/>
+      <p id="answer1"></p>
+    </li>
+    <li>
+      <p id = "question2"><strong>What is my favorite color?</strong></p>
+      <input type="text" id="color" placeholder="Insert answer here" />
+      <p id="answer2"></p>
+    </li>
+    <li>
+      <p id = "question3"><strong>What is my favorite food?</strong></p>
+      <input type="text" id="food" placeholder="Insert answer here" />
+      <p id="answer3"></p>
+    </li>
+    <li>
+      <p id = "question4"><strong>What is my favorite programming language?</strong></p>
+      <input type="text" id="language" placeholder="Insert answer here"  />
+      <p id="answer4"></p>
+    </li>
+    <li>
+      <p id = "question5"><strong>What is my passion?</strong></p>
+      <input type="text" id="passion" placeholder="Insert answer here" />
+      <p id="answer5"></p>
+    </li>
+  </ul>
   <button onclick="submit()">Submit</button>
-
   <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
