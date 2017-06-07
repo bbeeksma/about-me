@@ -8,11 +8,11 @@ function submit(){
     passion: document.getElementById('passion').value
   };
   console.log(responses);
-  document.getElementById('answer1').innerHTML = 'My name is David. (Says it in the header above)';
-  document.getElementById('answer2').innerHTML = 'My favorite colors to some people aren\'t colors but I enjoy black and white.';
-  document.getElementById('answer3').innerHTML = 'I love eating Gyro, they are simple yet so good.';
-  document.getElementById('answer4').innerHTML = 'In the past I\'ve always prefered C# but lately I\'ve been learning the applications of Javascript and have been greatly enjoying it.';
-  document.getElementById('answer5').innerHTML = 'My passion is promoting creativity because I think it is dying out in society lately.';
+  document.getElementById('answer1').innerText = 'My name is David. (Says it in the header above)';
+  document.getElementById('answer2').innerText = 'My favorite colors to some people aren\'t colors but I enjoy black and white.';
+  document.getElementById('answer3').innerText = 'I love eating Gyro, they are simple yet so good.';
+  document.getElementById('answer4').innerText = 'In the past I\'ve always prefered C# but lately I\'ve been learning the applications of Javascript and have been greatly enjoying it.';
+  document.getElementById('answer5').innerText = 'My passion is promoting creativity because I think it is dying out in society lately.';
   if((responses.name).toUpperCase() === 'DAVID') {
     document.getElementById('question1').style.color = 'green';
   } else {
