@@ -1,11 +1,26 @@
 console.log('Loaded app.js');
 function submit(){
   var responses = {
-    name: document.getElementById('name').value,
-    color: document.getElementById('color').value,
-    food: document.getElementById('food').value,
-    language: document.getElementById('language').value,
-    passion: document.getElementById('passion').value
+    response1Y: document.getElementById('response1Y'),
+    response1N: document.getElementById('response1N'),
+    response2Y: document.getElementById('response2Y'),
+    response2Y: document.getElementById('response2N'),
+    response3Y: document.getElementById('response3Y'),
+    response3N: document.getElementById('response3N'),
+    response4Y: document.getElementById('response4Y'),
+    response4N: document.getElementById('response4N'),
+    response5Y: document.getElementById('response5Y'),
+    response5N: document.getElementById('response5N'),
+    response6: document.getElementById('response6').value,
+    response7: document.getElementById('response7').value,
+    response8: document.getElementById('response8').value,
+    response9: document.getElementById('response9').value,
+    response10: document.getElementById('response10').value,
+    response11: document.getElementById('response11').value,
+    response12: document.getElementById('response12').value,
+    response13: document.getElementById('response13').value,
+    response14: document.getElementById('response14').value,
+    response15: document.getElementById('response15').value
   };
   console.log(responses);
   document.getElementById('answer1').innerText = 'My name is David. (Says it in the header above)';
