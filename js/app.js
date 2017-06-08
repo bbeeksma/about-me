@@ -1,6 +1,9 @@
 console.log('Loaded app.js');
 var userName;
 function main(){
+  promptUserName();
+}
+function promptUserName(){
   userName = prompt('Hello, What\'s your name?');
   if (userName.toUpperCase() === 'DAVID'){
     alert('Wow! David is my name too. I hope you enjoy my about me, good luck on the guessing game!');
