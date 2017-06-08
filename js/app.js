@@ -16,7 +16,7 @@ function submit(){
     response1Y: document.getElementById('response1Y'),
     response1N: document.getElementById('response1N'),
     response2Y: document.getElementById('response2Y'),
-    response2Y: document.getElementById('response2N'),
+    response2N: document.getElementById('response2N'),
     response3Y: document.getElementById('response3Y'),
     response3N: document.getElementById('response3N'),
     response4Y: document.getElementById('response4Y'),
