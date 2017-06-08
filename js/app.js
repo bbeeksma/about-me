@@ -36,16 +36,16 @@ function submit(){
   document.getElementById('answer3').innerText = 'Yes I do have a python, his name is mukluk.';
   document.getElementById('answer4').innerText = 'I have actually done freelance game development, I did not enjoy it.';
   document.getElementById('answer5').innerText = 'My main hobby is actually herping (look it up).';
-  document.getElementById('answer6').innerText = '';
-  document.getElementById('answer7').innerText = '';
-  document.getElementById('answer8').innerText = '';
-  document.getElementById('answer9').innerText = '';
-  document.getElementById('answer10').innerText = '';
-  document.getElementById('answer11').innerText = '';
-  document.getElementById('answer12').innerText = '';
-  document.getElementById('answer13').innerText = '';
-  document.getElementById('answer14').innerText = '';
-  document.getElementById('answer15').innerText = '';
+  document.getElementById('answer6').innerText = 'Oddly my middle name is Rudolph.';
+  document.getElementById('answer7').innerText = 'My favorite color/colors is black and white.';
+  document.getElementById('answer8').innerText = 'I am a big fan of gyros.';
+  document.getElementById('answer9').innerText = 'I am on the fence between C# and Javascript';
+  document.getElementById('answer10').innerText = 'Promoting creative thinking in our society';
+  document.getElementById('answer11').innerText = 'My favorite number is 13';
+  document.getElementById('answer12').innerText = 'I am 6\' 2"' ;
+  document.getElementById('answer13').innerText = 'I was nearly 4 years old, but I still remember details about it.';
+  document.getElementById('answer14').innerText = 'I am only 18 years old';
+  document.getElementById('answer15').innerText = 'I have been doing some kind of programming going on 6 years.';
   if((responses.name).toUpperCase() === 'DAVID') {
     document.getElementById('question1').style.color = 'green';
   } else {
