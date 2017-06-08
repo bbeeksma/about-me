@@ -9,13 +9,16 @@ body {
   background: #fff;
 }
 header {
-  min-width: 100px
+  min-width: 100px;
   padding: 0 15px;
   text-align: center;
 }
 header img {
   width: 20%;
   height: 20%;
+}
+header h1 {
+  font-size: 50px;
 }
 nav {
   text-align: center;
@@ -28,7 +31,6 @@ nav ul li {
   padding-right: 10px;
 }
 nav ul li {
-
 }
 .btn {
   -webkit-border-radius: 6;
