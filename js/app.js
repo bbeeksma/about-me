@@ -31,6 +31,7 @@ function submit(){
     response15: document.getElementById('response15').value
   };
   console.log(responses);
+  var score = 0;
   document.getElementById('answer1').innerText = 'Of course my name is David.';
   document.getElementById('answer2').innerText = 'I am from Florida. I moved to Iowa when I was younger after going through fostercare.';
   document.getElementById('answer3').innerText = 'Yes I do have a python, his name is mukluk.';
@@ -46,29 +47,35 @@ function submit(){
   document.getElementById('answer13').innerText = 'I was nearly 4 years old, but I still remember details about it.';
   document.getElementById('answer14').innerText = 'I am only 18 years old';
   document.getElementById('answer15').innerText = 'I have been doing some kind of programming going on 6 years.';
-  if((responses.name).toUpperCase() === 'DAVID') {
+  if(response1Y.checked){
     document.getElementById('question1').style.color = 'green';
-  } else {
+    score++;
+  } else if (response1N.checked){
     document.getElementById('question1').style.color = 'red';
   }
-  if((responses.color).toUpperCase() === 'WHITE' || (responses.passion).toUpperCase() === 'BLACK'){
+  if(response2Y.checked){
     document.getElementById('question2').style.color = 'green';
-  } else {
+    score++;
+  } else if (response2N.checked){
     document.getElementById('question2').style.color = 'red';
   }
-  if((responses.food).toUpperCase() === 'GYRO'){
+  if(response3Y.checked){
     document.getElementById('question3').style.color = 'green';
-  } else {
+    score++;
+  } else if (response3N.checked){
     document.getElementById('question3').style.color = 'red';
   }
-  if((responses.language).toUpperCase() === 'C#'){
+  if(response1Y.checked){
     document.getElementById('question4').style.color = 'green';
-  } else {
+    score++;
+  } else if (response4N.checked){
     document.getElementById('question4').style.color = 'red';
   }
-  if((responses.passion).toUpperCase() === 'CREATIVITY' || (responses.passion).toUpperCase() === 'PROMOTING CREATIVITY'){
+  if(response1N.checked){
     document.getElementById('question5').style.color = 'green';
-  } else {
+    score++;
+  } else if (response1Y.checked){
     document.getElementById('question5').style.color = 'red';
   }
+  
 }
