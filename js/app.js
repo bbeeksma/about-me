@@ -35,6 +35,7 @@ function submit(){
     response15: document.getElementById('response15').value
   };
   console.log(responses);
+  var correctResponses = [responses.response1Y,responses.response2Y,responses.response3Y,responses.response4Y,responses.response5N];
   var score = 0;
   document.getElementById('answer1').innerText = 'Of course my name is David.';
   document.getElementById('answer2').innerText = 'I am from Florida. I moved to Iowa when I was younger after going through fostercare.';
@@ -51,7 +52,19 @@ function submit(){
   document.getElementById('answer13').innerText = 'I was nearly 4 years old, but I still remember details about it.';
   document.getElementById('answer14').innerText = 'I am only 18 years old';
   document.getElementById('answer15').innerText = 'I have been doing some kind of programming going on 6 years.';
-  if(response1Y.checked){
+  for(var i = 0; i < correctResponses.length; i++){
+    var elementString = 'question' + (i + 1);
+    console.log('set elementString = ' + elementString);
+    if(correctResponses[i].checked){
+      document.getElementById(elementString).style.color = 'green';
+      score++;
+    }
+    else{
+      document.getElementById(elementString).style.color = 'red';
+    }
+  }
+
+  /*if(response1Y.checked){
     document.getElementById('question1').style.color = 'green';
     score++;
   } else if (response1N.checked){
@@ -81,5 +94,6 @@ function submit(){
   } else if (respons5Y.checked){
     document.getElementById('question5').style.color = 'red';
   }
+  */
   document.getElementById('finalScore').innerText = ' You got ' + score + '/15 ' + userName;
 }
