@@ -19,25 +19,28 @@ header img {
 }
 .first-column {
   width: 286px;
+  height: 520px;
   float: left;
   padding: 5px 15px;
   background: #f0efef;
 }
 .second-column {
   width: 290px;
+  height: 520px;
   float:left;
   padding: 5px 15px;
   margin: 0px 5px 5px 5px;
 }
 .third-column {
   width: 266px;
+  height: 520px;
   padding: 5px 15px;
   float: left;
   background: #f0efef;
 }
 footer{
   clear: both;
-  padding: 0 15px;
+  padding: 15px 15px;
   text-align: center;
 }
 header, .first-column, .second-column, .third-column{
