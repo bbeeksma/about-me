@@ -62,12 +62,6 @@ nav ul li {
   margin: 0px 5px 5px 5px;
   display: table-cell;
 }
-.third-column {
-  width: 33%;
-  padding: 5px 15px;
-  background: #f0efef;
-  display: table-cell;
-}
 footer{
   clear: both;
   padding: 15px 15px;
