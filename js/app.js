@@ -1,6 +1,7 @@
 console.log('Loaded app.js');
+var userName;
 function main(){
-  var userName = prompt('Hello, What\'s your name?');
+  userName = prompt('Hello, What\'s your name?');
   if (userName.toUpperCase() === 'DAVID'){
     alert('Wow! David is my name too. I hope you enjoy my about me, good luck on the guessing game!');
   } else {
@@ -77,5 +78,5 @@ function submit(){
   } else if (response1Y.checked){
     document.getElementById('question5').style.color = 'red';
   }
-  
+  document.getElementById('finalScore').innerText = ' You got ' + score + '/15 ' + userName;
 }
