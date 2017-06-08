@@ -5,40 +5,68 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
-  <h1>About Me (David Becker)</h1>
-  <img src="img/profile.jpg" height="10%" width="10%" />
-  <h3>Let's play a little game!</h3>
-  <p>
-    In order to learn more about me I have created a little guessing games. Answer the questions below to your best ability and then click submit.
-  </p>
-  <ol>
-    <li>
-      <p id = "question1"><strong>What is my name?</strong></p>
-      <input type="text" id="name" placeholder="Insert answer here"/>
-      <p id="answer1"></p>
-    </li>
-    <li>
-      <p id = "question2"><strong>What is my favorite color?</strong></p>
-      <input type="text" id="color" placeholder="Insert answer here" />
-      <p id="answer2"></p>
-    </li>
-    <li>
-      <p id = "question3"><strong>What is my favorite food?</strong></p>
-      <input type="text" id="food" placeholder="Insert answer here" />
-      <p id="answer3"></p>
-    </li>
-    <li>
-      <p id = "question4"><strong>What is my favorite programming language?</strong></p>
-      <input type="text" id="language" placeholder="Insert answer here"  />
-      <p id="answer4"></p>
-    </li>
-    <li>
-      <p id = "question5"><strong>What is my passion?</strong></p>
-      <input type="text" id="passion" placeholder="Insert answer here" />
-      <p id="answer5"></p>
-    </li>
-  </ol>
-  <button onclick="submit()">Submit</button>
+  <div class="wrapper">
+    <header>
+      <h1>About Me (David Becker)</h1>
+      <img src="img/profile.jpg" />
+      <p>
+        I am a developer with a passion for inspiring creative and original
+        thinking in people, pushing the bounds of what they think they can do.
+        I always strive to do things differently than my piers.
+      </p>
+    </header>
+    <section class="first-column">
+      <h2>Round 1</h2>
+      <p>
+        To start off we will keep it easy with simple yes/no questions.
+      </p>
+    </section>
+    <section class="second-column">
+      <h2>Round 2</h2>
+      <p>
+        We're getting a little harder now with the questions.
+      </p>
+      <ol>
+        <li>
+          <p id = "question1"><strong>What is my name?</strong></p>
+          <input type="text" id="name" placeholder="Insert answer here"/>
+          <p id="answer1"></p>
+        </li>
+        <li>
+          <p id = "question2"><strong>What is my favorite color?</strong></p>
+          <input type="text" id="color" placeholder="Insert answer here" />
+          <p id="answer2"></p>
+        </li>
+        <li>
+          <p id = "question3"><strong>What is my favorite food?</strong></p>
+          <input type="text" id="food" placeholder="Insert answer here" />
+          <p id="answer3"></p>
+        </li>
+        <li>
+          <p id = "question4"><strong>What is my favorite programming language?</strong></p>
+          <input type="text" id="language" placeholder="Insert answer here"  />
+          <p id="answer4"></p>
+        </li>
+        <li>
+          <p id = "question5"><strong>What is my passion?</strong></p>
+          <input type="text" id="passion" placeholder="Insert answer here" />
+          <p id="answer5"></p>
+        </li>
+      </ol>
+      <button onclick="submit()">Submit</button>
+    </section>
+    <section class="third-column">
+      <h2>Round 3</h2>
+      <p>
+        Final round means the hardest questions.
+      </p>
+    </section>
+    <footer>
+      <p>
+        Footer filler text until I think of relative content.
+      </p>
+    </footer>
+  </div>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
