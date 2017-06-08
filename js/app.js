@@ -75,10 +75,10 @@ function submit(){
   } else if (response4N.checked){
     document.getElementById('question4').style.color = 'red';
   }
-  if(response1N.checked){
+  if(response5YN.checked){
     document.getElementById('question5').style.color = 'green';
     score++;
-  } else if (response1Y.checked){
+  } else if (respons5Y.checked){
     document.getElementById('question5').style.color = 'red';
   }
   document.getElementById('finalScore').innerText = ' You got ' + score + '/15 ' + userName;
