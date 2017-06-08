@@ -1,4 +1,13 @@
 console.log('Loaded app.js');
+function main(){
+  var userName = prompt('Hello, What\'s your name?');
+  if (username.toUpperCase() === 'DAVID'){
+    alert('Wow! David is my name too. I hope you enjoy my about me, good luck on the guessing game!');
+  } else {
+    alert('Well ' + userName + ' I hope you enjoy my about me, good luck on the guessing game!');
+  }
+}
+
 function submit(){
   var responses = {
     response1Y: document.getElementById('response1Y'),
