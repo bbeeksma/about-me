@@ -10,7 +10,7 @@ body {
 }
 header {
   min-width: 100px;
-  padding: 0 15px;
+  padding: 15px 15px;
   text-align: center;
 }
 header img {
@@ -19,6 +19,10 @@ header img {
 }
 header h1 {
   font-size: 50px;
+  margin: 0px;
+}
+header p {
+  margin: 0px;
 }
 nav {
   text-align: center;
@@ -31,6 +35,7 @@ nav ul li {
   padding-right: 10px;
 }
 nav ul li {
+
 }
 .btn {
   -webkit-border-radius: 6;
