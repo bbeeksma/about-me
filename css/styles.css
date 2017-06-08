@@ -19,21 +19,21 @@ header img {
 }
 .first-column {
   width: 286px;
-  height: 520px;
+  height: relative;
   float: left;
   padding: 5px 15px;
   background: #f0efef;
 }
 .second-column {
   width: 290px;
-  height: 520px;
+  height: relative;
   float:left;
   padding: 5px 15px;
   margin: 0px 5px 5px 5px;
 }
 .third-column {
   width: 266px;
-  height: 520px;
+  height: relative;
   padding: 5px 15px;
   float: left;
   background: #f0efef;

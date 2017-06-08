@@ -1,13 +1,12 @@
 console.log('Loaded app.js');
 function main(){
   var userName = prompt('Hello, What\'s your name?');
-  if (username.toUpperCase() === 'DAVID'){
+  if (userName.toUpperCase() === 'DAVID'){
     alert('Wow! David is my name too. I hope you enjoy my about me, good luck on the guessing game!');
   } else {
     alert('Well ' + userName + ' I hope you enjoy my about me, good luck on the guessing game!');
   }
 }
-
 function submit(){
   var responses = {
     response1Y: document.getElementById('response1Y'),
@@ -32,11 +31,21 @@ function submit(){
     response15: document.getElementById('response15').value
   };
   console.log(responses);
-  document.getElementById('answer1').innerText = 'My name is David. (Says it in the header above)';
-  document.getElementById('answer2').innerText = 'My favorite colors to some people aren\'t colors but I enjoy black and white.';
-  document.getElementById('answer3').innerText = 'I love eating Gyro, they are simple yet so good.';
-  document.getElementById('answer4').innerText = 'In the past I\'ve always prefered C# but lately I\'ve been learning the applications of Javascript and have been greatly enjoying it.';
-  document.getElementById('answer5').innerText = 'My passion is promoting creativity because I think it is dying out in society lately.';
+  document.getElementById('answer1').innerText = 'Of course my name is David.';
+  document.getElementById('answer2').innerText = 'I am from Florida. I moved to Iowa when I was younger after going through fostercare.';
+  document.getElementById('answer3').innerText = 'Yes I do have a python, his name is mukluk.';
+  document.getElementById('answer4').innerText = 'I have actually done freelance game development, I did not enjoy it.';
+  document.getElementById('answer5').innerText = 'My main hobby is actually herping (look it up).';
+  document.getElementById('answer6').innerText = '';
+  document.getElementById('answer7').innerText = '';
+  document.getElementById('answer8').innerText = '';
+  document.getElementById('answer9').innerText = '';
+  document.getElementById('answer10').innerText = '';
+  document.getElementById('answer11').innerText = '';
+  document.getElementById('answer12').innerText = '';
+  document.getElementById('answer13').innerText = '';
+  document.getElementById('answer14').innerText = '';
+  document.getElementById('answer15').innerText = '';
   if((responses.name).toUpperCase() === 'DAVID') {
     document.getElementById('question1').style.color = 'green';
   } else {
