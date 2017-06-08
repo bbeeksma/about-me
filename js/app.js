@@ -75,7 +75,7 @@ function submit(){
   } else if (response4N.checked){
     document.getElementById('question4').style.color = 'red';
   }
-  if(response5YN.checked){
+  if(response5N.checked){
     document.getElementById('question5').style.color = 'green';
     score++;
   } else if (respons5Y.checked){
